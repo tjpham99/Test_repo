@@ -1,0 +1,45 @@
+/* problem-b */
+
+/* 1 */
+circle:nth-of-type(1), circle:nth-of-type(2) {
+    fill: #5f5f5f;
+}
+/* 2 */
+svg path {
+    stroke: #5f5f5f;
+    stroke-width: 8px;
+}
+/* 3 */
+circle.small {
+    fill: white;
+}
+/* 4 */
+svg g:first-of-type circle.small {
+    fill: #573d29;
+}
+/* 5 */
+svg g:last-of-type circle, rect {
+    fill: #c0c0c0;
+    stroke: 'none';
+}
+/* 6 */
+path#interactive {
+    fill: #c0c0c0;
+    stroke: #bd250d;
+    stroke-width: 4px;
+}
+/* 7 */
+path#interactive:hover {
+    fill: #bd250d;
+}
+/* 8 */
+svg rect {
+    opacity: 0;
+}
+svg g:last-of-type rect {
+    opacity: 1;
+}
+/* 9 */
+path:last-of-type {
+    stroke: none;
+}

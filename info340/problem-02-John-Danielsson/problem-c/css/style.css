@@ -1,0 +1,38 @@
+/* problem-c */
+h1 {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+body {
+    max-height: 100px;
+    max-width: 100px;
+}
+th {
+    height: 2rem;
+    text-align: left;
+    color: #1db954;
+    background-color: #d3d3d3;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+tbody img {
+    width: 100px;
+    height: 100px;
+}
+.cell {
+    padding: .5em;
+    border-bottom: 1px solid #d3d3d3;
+    border: solid;
+    border-color: #d3d3d3;
+}
+tbody tr:hover {
+    background-color: pink;
+}
+tbody tr:nth-of-type(even) {
+    background-color: #eee;
+}
