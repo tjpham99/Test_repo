@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "tab_organizer",
+    "version": "1.0",
+
+    "description": "Organizes tabs according to their website type, as dictated by the user.",
+
+    "permissions": [
+        "<all_urls>",
+        "tabs"
+    ],
+
+    "icons": {
+        "48": "icons/tabs.png",
+        "96": "icons/tabs.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["tabs.js"]
+        }
+    ]
+}
